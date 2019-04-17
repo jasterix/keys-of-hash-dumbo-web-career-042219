@@ -8,6 +8,7 @@ class Hash
         arr.unshift(k)
       end
         }
+        arr
   end
-  arr
+
 end
