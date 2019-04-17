@@ -4,5 +4,6 @@ class Hash
     arr = []
     self.map |k, v|
       if v == 
+        arr.unshift(k)
   end
 end
