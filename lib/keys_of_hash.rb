@@ -3,11 +3,12 @@ class Hash
     # code goes here
     arr = []
     self.map {|k, v|
-    arguments.select |i|
+    arguments.select {|i|
       if i == v
         arr.unshift(k)
       end
         }
+    }
         arr
   end
 
