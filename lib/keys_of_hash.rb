@@ -3,7 +3,8 @@ class Hash
     # code goes here
     arr = []
     self.map |k, v|
-      if v == 
+    arguments.select |i|
+      if i == v
         arr.unshift(k)
   end
 end
