@@ -6,5 +6,6 @@ class Hash
     arguments.select |i|
       if i == v
         arr.unshift(k)
+        }
   end
 end
